@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Census Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Census Data Dashboard</h1>
+    <button id="fetch-button">Fetch Census Data</button>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>State</th>
+          <th>District</th>
+          <th>Total Population</th>
+          <th>Male Population</th>
+          <th>Female Population</th>
+          <th>Literacy Rate</th>
+        </tr>
+      </thead>
+      <tbody id="data-table-body">
+        <!-- Rows will be dynamically inserted here -->
+      </tbody>
+    </table>
+  </main>
+  <script src="main.js" defer></script>
+</body>
+</html>
